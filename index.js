@@ -29,6 +29,7 @@ function displayTemp(response) {
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
+
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   cityElement.innerHTML = response.data.name;
   descriptionElement.innerHTML = response.data.weather[0].description;
@@ -36,8 +37,9 @@ function displayTemp(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   dateElement.innerHTML = formatdate(response.data.dt * 1000);
 }
-const apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
-let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid=${apiKey}&units=metric`;
+const apiKey = "0349fc8ed760ab5a973c588a24383718";
+let city = "Durban";
+let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 console.log(apiURL);
 axios.get(apiURL).then(displayTemp);
