@@ -30,6 +30,13 @@ a:hover {
 }
 #search-btn {
   background-color: blueviolet;
+  border: 1px blueviolet;
+}
+#search-btn:hover {
+  transition: ease-out 5ms;
+  background-color: white;
+  color: blueviolet;
+  box-shadow: 5px 3px 5px blueviolet;
 }
 .weather-temperature .active {
   color: black;
