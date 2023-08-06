@@ -28,6 +28,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+#search-btn {
+  background-color: blueviolet;
+}
 .weather-temperature .active {
   color: black;
   cursor: default;
@@ -35,6 +38,7 @@ a:hover {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
 .weather-app {
   max-width: 600px;
   margin: 0 auto;
