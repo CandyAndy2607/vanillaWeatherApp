@@ -28,6 +28,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
 .weather-app {
   max-width: 600px;
   margin: 0 auto;
