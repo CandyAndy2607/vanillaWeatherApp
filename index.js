@@ -124,6 +124,7 @@ function displayFahrenheitTemp(event) {
   event.preventDefault();
 
   let temperatureElement = document.querySelector("#temperature");
+
   //remove the active class the celsius link
   celsiuslink.classList.remove("active");
   fahrenheitlink.classList.add("active");
@@ -133,6 +134,7 @@ function displayFahrenheitTemp(event) {
 function displayCelsiusTemp(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
+
   celsiuslink.classList.add("active");
   fahrenheitlink.classList.remove("active");
   temperatureElement.innerHTML = Math.round(celsiusTemp);

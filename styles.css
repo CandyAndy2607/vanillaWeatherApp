@@ -101,3 +101,7 @@ a:hover {
 .weather-forecast-temperature-min {
   opacity: 0.6;
 }
+.weather-forecast-temperature-max {
+  color: blueviolet;
+  font-weight: bold;
+}
