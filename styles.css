@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
 }
 
 li {
@@ -30,13 +31,13 @@ a:hover {
 }
 #search-btn {
   background-color: blueviolet;
-  border: 1px blueviolet;
+  border: 1px #ede4ff;
 }
 #search-btn:hover {
   transition: ease-out 5ms;
   background-color: white;
   color: blueviolet;
-  box-shadow: 5px 3px 5px blueviolet;
+  box-shadow: 3px 3px 3px #a084e8;
 }
 .weather-temperature .active {
   color: black;
@@ -52,6 +53,7 @@ a:hover {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
+  background-color: white;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -59,7 +61,7 @@ a:hover {
   padding: 5px;
 }
 .container h1 {
-  color: #878787;
+  color: #a076f9;
   font-family: arial, sans-serif;
   font-size: 24px;
   font-weight: 100;
@@ -67,6 +69,9 @@ a:hover {
   line-height: 28.8px;
   text-align: left;
   margin-bottom: 0;
+}
+#description {
+  color: #d7bbf5;
 }
 .overview {
   margin-bottom: 20px;
@@ -77,7 +82,7 @@ a:hover {
   width: 64px;
 }
 .weather-temperature strong {
-  color: blueviolet;
+  color: #a076f9;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
